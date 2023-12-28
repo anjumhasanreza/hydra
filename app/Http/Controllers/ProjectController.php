@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class DashboardController extends Controller
+class ProjectController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('admin.dashboard');
+        return view('admin.pages.businesses.projects.index');
     }
 
     /**
@@ -23,7 +23,7 @@ class DashboardController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.pages.businesses.projects.create');
     }
 
     /**
@@ -45,7 +45,7 @@ class DashboardController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('admin.pages.businesses.projects.edit');
     }
 
     /**
@@ -56,7 +56,7 @@ class DashboardController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('admin.pages.businesses.projects.edit');
     }
 
     /**

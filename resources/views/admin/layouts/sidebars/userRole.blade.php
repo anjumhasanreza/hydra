@@ -1,8 +1,8 @@
-<li class="nav-item">
-    <a class="nav-link menu-link" href="#sidebarDashboards" data-bs-toggle="collapse" role="button"
+{{-- <li class="nav-item">
+    <a class="nav-link menu-link" href="#" data-bs-toggle="collapse" role="button"
         aria-expanded="false" aria-controls="sidebarDashboards">
         <i class="ri-dashboard-2-line"></i>
-        <span data-key="t-dashboards">Dashboards</span>
+        <span data-key="t-dashboards">Dashboard</span>
     </a>
     <div class="collapse menu-dropdown" id="sidebarDashboards">
         <ul class="nav nav-sm flex-column">
@@ -13,4 +13,11 @@
 
         </ul>
     </div>
+</li> --}}
+
+
+<li class="nav-item">
+    <a class="nav-link menu-link" href="{{ asset('/dashboard') }}">
+        <i class="ri-settings-fill"></i> <span data-key="t-dashboards">User Role</span>
+    </a>
 </li>

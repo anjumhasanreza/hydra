@@ -9,7 +9,7 @@
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
         
-        @include('layouts.styles')
+        @include('admin.layouts.styles')
 
     </head>
 
@@ -18,10 +18,10 @@
         <!-- Begin page -->
         <div id="layout-wrapper">
 
-            @include('layouts.nav')
+            @include('admin.layouts.nav')
             
             <!-- ========== App Menu ========== -->
-            @include('layouts.sidebar')
+            @include('admin.layouts.sidebar')
 
             <!-- ============================================================== -->
             <!-- Start right Content here -->
@@ -32,7 +32,7 @@
 
             </div>
 
-            @include('layouts.footer')
+            @include('admin.layouts.footer')
             
             <!-- end main content-->
 
@@ -42,15 +42,15 @@
 
 
         <!--start back-to-top-->
-        @include('partials.goToTop')
+        @include('admin.layouts.partials.goToTop')
         <!--end back-to-top-->
 
         
-        @include('partials.theamSetting')
+        @include('admin.layouts.partials.theamSetting')
 
         <!-- java Script  -->
 
-        @include('layouts.scripts')
+        @include('admin.layouts.scripts')
 
     </body>
 </html>

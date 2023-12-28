@@ -1,6 +1,6 @@
 <div class="navbar-brand-box">
     <!-- Dark Logo-->
-    <a href="{{ asset('/') }}" class="logo logo-dark">
+    <a href="{{ asset('/dashboard') }}" class="logo logo-dark">
         <span class="logo-sm">
             <img src="{{ asset('assets/images/Logo.png') }}" alt="" height="22">
         </span>
@@ -9,7 +9,7 @@
         </span>
     </a>
     <!-- Light Logo-->
-    <a href="{{ asset('/') }}" class="logo logo-light">
+    <a href="{{ asset('/dashboard') }}" class="logo logo-light">
         <span class="logo-sm">
             <img src="{{ asset('assets/images/Logo.png') }}" alt="" height="22">
         </span>

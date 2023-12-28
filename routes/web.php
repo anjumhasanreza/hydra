@@ -24,5 +24,14 @@ Route::get('/dashboard',[DashboardController::class,'index']);
 
 
 
-// use App\Http\Controllers\ProductController;
-// Route::resource('product', ProductController::class);
+
+use App\Http\Controllers\ProjectController;
+Route::resource('project', ProjectController::class);
+
+
+// use App\Http\Controllers\ProjectController;
+
+// Route::get('/project/index',[ProjectController::class,'index']);
+// Route::get('/project/create',[ProjectController::class,'create']);
+// Route::get('/project/edit',[ProjectController::class,'edit']);
+// Route::get('/project/view',[ProjectController::class,'view']);
